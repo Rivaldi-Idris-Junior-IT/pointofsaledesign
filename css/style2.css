@@ -1,0 +1,173 @@
+body{
+    background-color: #E5E5E5;
+}
+
+/* Alternate Element */
+
+
+
+
+/* end of alternate */
+
+/* Navbar */
+.navbar{
+    background-color:#FFFFFF;
+    
+}
+
+.navbar-brand{
+    margin-left:10px;
+    position: fixed;
+}
+
+.food-name-cart{
+    margin-right: 40px;
+}
+
+.navbar{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+/* end navbar */
+
+/* Sidebar */
+
+.col-md-1{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);    
+}
+
+.sidebar img{ 
+    margin-top:15px;
+}
+
+/* end of navbar */
+
+
+/* Main bar */
+.col-md-8{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll ;
+    height: 550px;
+}
+
+.col-md-8 .card{
+    width: 260px;
+    margin-left: 20px;
+    background-color:transparent;
+    border-color: transparent;
+    
+}
+
+/* end of main bar */
+
+
+/* Aside bar */
+.col-md-3 .card{
+    height: 100px;
+    display: flex;
+    background-color:transparent;
+    border-color: transparent;
+}
+
+.col-md-3 .card .no-gutters .card-body h5{
+    margin-top:-20px;
+}
+
+.col-md-3 .card .no-gutters .card-body input{
+    margin-top:10px;
+    height: 24px;
+    width: 30px;
+    border-color:transparent;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.col-md-3 .card .no-gutters .card-body button{
+    margin-top:10px;
+    height: 30px;
+    width: 30px;
+    border-color:transparent;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.col-md-3 .card .no-gutters .card-body h6{
+    margin-top:9px;
+    text-align: right;   
+}
+
+.price-total-cart{
+    margin-top:20px;
+}
+
+.col-md-3 .button-checkout-cancel{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    padding-right: 8px; 
+}
+
+.col-md-3 .button-checkout-cancel button{
+    width: 100%;
+    height: 40px;   
+    
+}
+
+.col-md-3 .button-checkout-cancel .button-checkout button{
+    background-color:#57CAD5;
+    border: none;
+    color:#FFFFFF
+}
+
+.col-md-3 .button-checkout-cancel .button-cancel button{
+    margin-top: 10px;
+    background-color:#F24F8A;
+    border: none;
+    color:#FFFFFF
+}
+
+
+/* Modal  */
+
+/* Modal Checkout */
+.modal-button-added{
+    background-color: transparent;
+    border: none;    
+}
+
+.modal-button-added::after{
+    border: none;    
+}
+
+.modal-button-added img{    
+    width: 40px;
+    height: 40px;
+    margin-left: -5px;
+    border:none;
+}
+/* end modal checkout */
+
+/* Modal Added */
+
+.form-control{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+
+.buttons-modal-decision .btn-modal-cancel{
+    background-color: #F24F8A; 
+    color: #ffff;
+}
+
+.buttons-modal-decision .btn-modal-add{
+    background-color: #57CAD5; 
+    color: #ffff
+}
+/* end modal added */
+
+@media (max-width:575.98px){
+    .food-name-cart{
+        display: none;
+    }
+}

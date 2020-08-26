@@ -1,0 +1,98 @@
+
+
+.navbar{
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+}
+
+.food-name-brand{
+    margin-right: 30vw;
+}
+
+.sidebar-menu{    
+    height: 50vw;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.sidebar-menu a{
+    margin-top:20px;
+    margin-left:8px;
+}
+
+.aside-menu {
+    background-color:brown;
+    width: 300px;
+    height: 55px;
+    margin-left:22px;
+    text-align: center;    
+    padding-top: 15px;
+    position: fixed;
+}
+
+.aside-cart{
+    background-color:blue;
+    width: 300px;
+    height: 100vw;
+    margin-left:22px;
+    margin-top:58px;    
+    padding-top: 5px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-listed{    
+    padding-top:10px;
+    display: flex;        
+    border-color:transparent;
+    position: fixed;
+    width: 300px;
+    height: 140px;
+    background-color:transparent
+    
+}
+
+.card-listed img{
+    border-radius:10px 10px 10px 10px;    
+    margin-left:10px;
+    position: fixed;
+}
+
+.card-listed h5{
+    margin-left:120px;    
+}
+
+.card-listed .input-biner{
+    background-color:yellowgreen;
+    width: 66px;
+    height: 29px;
+    margin-top:35px;
+    margin-left:-90px;
+    padding-top:1px;
+    padding-left:1px;
+}
+
+.card-listed input{
+    width: 25px;
+    height: 25px;    
+    border: none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.card-listed button{
+    border:none;
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.card-price-listed{
+    margin-top:80px;    
+}
+
+
+

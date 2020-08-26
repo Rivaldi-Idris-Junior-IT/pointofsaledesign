@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="script/jquery.nice-number.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="#">
+            <img src="images/menu (1).svg" width="30" height="30" class="d-inline-block align-top" alt=""
+                loading="lazy">
+        </a>
+        <div class="justify-content-center mx-auto">
+            <div class="food-name-brand mx-auto">
+                <h5>Food items</h5>
+            </div>
+        </div>
+        <div class="food-name-cart" style="margin-right:110px;">
+            <h5>Cart <span style="background-color:#57CAD5; border-radius:100px; color:white;">3</span></h5>
+        </div>
+
+    </nav>
+
+
+    <section id="main-side-aside">
+        <div class="row">
+            <div class="col-md-1" style="background-color:#ffff;">
+                <div class="sidebar pl-4">
+                    <a href=""><img src="images/fork.svg" alt="" width="40" height="40"></a>
+                    <a href=""><img src="images/clipboard.svg" alt="" width="40" height="40"></a>
+                    <a href=""><img src="images/add.svg" alt="" width="40" height="40"></a>
+                </div>
+            </div>
+            <div class="col-md-8 mt-1">
+                <div class="card d-inline-block mt-3">
+                    <img src="images/ESPRESSO.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Espresso</h5>
+                        <h6>Rp. 10.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/COFFELATTE.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Coffe Latte</h5>
+                        <h6>Rp. 15.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/CAPPUCCINO.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Cappucino</h5>
+                        <h6>Rp. 10.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/REDVELVET.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Red Velvet Latte</h5>
+                        <h6>Rp. 33.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/CHOCORHUM.jpg" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Choco Rhum</h5>
+                        <h6>Rp. 28.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/BLACKFOREST.jpg" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Black Forest</h5>
+                        <h6>Rp. 30.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/CHICKENKATSU.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Chicken Katsu Dabu-dabu</h5>
+                        <h6>Rp. 60.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/SALMONTRUFFLE.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Salmon Truffle</h5>
+                        <h6>Rp. 60.000</h6>
+                    </div>
+                </div>
+                <div class="card d-inline-block mt-3">
+                    <img src="images/WIENER.png" alt="" width="250" height="200">
+                    <div class="card-body">
+                        <h5>Wiener Schnitzel</h5>
+                        <h6>Rp. 69.000</h6>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 mt-1" style="background-color: #ffff; height: 100vh;">
+                <div class="card-listed">
+                    <div class="card mt-3">
+                        <div class="row no-gutters">
+                            <img src="images/COFFELATTE.png" alt="" width="100" height="100">
+                            <div class="card-body">
+                                <h5>Coffe Latte</h5>
+                                <input type="number" value="1" min="1">
+                                <h6>Rp. 15.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="row no-gutters">
+                            <img src="images/BLACKFOREST.jpg" alt="" width="100" height="100">
+                            <div class="card-body">
+                                <h5>Black Forest</h5>
+                                <input type="number" value="1" min="1">
+                                <h6>Rp. 30.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3">
+                        <div class="row no-gutters">
+                            <img src="images/SALMONTRUFFLE.png" alt="" width="100" height="100">
+                            <div class="card-body">
+                                <h5>Salmon Truffle</h5>
+                                <input type="number" value="1" min="1">
+                                <h6>Rp. 60.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-total-cart">
+                    <h6>Total: <span style="margin-left:180px;">Rp. 105.000</span></h6>
+                    <small>*Belum termasuk ppn</small>
+                </div>
+                <div class="button-checkout-cancel ">
+                    <div class="button-checkout">
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModal">Checkout</button>
+                    </div>
+                    <div class="button-cancel">
+                        <button>Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="d-inline-block">
+                        <h4 class="ml-3 mt-2" style="display: inline-block;">Checkout</h4>
+                        <h5 style="display:inline-block; margin-left:450px;">Receipt no: #010410919</h5>
+                    </div>
+                    <small class="ml-3 mt-2"><h6>Cashier : Pevita Pearce</h6></small>
+                    <div class="listed-payment ml-3" style="margin-top:30px;">
+                        <h5 class="" style="display: inline-block;">Coffe latte 1x</h5>
+                        <h5 style="display:inline-block; margin-left:550px;">Rp. 15.000</h5>
+                    </div>
+                    <div class="listed-payment ml-3" ">
+                        <h5 class="" style="display: inline-block;">Black Forest 1x</h5>
+                        <h5 style="display:inline-block; margin-left:535px;">Rp. 30.000</h5>
+                    </div>
+                    <div class="listed-payment ml-3" >
+                        <h5 class="" style="display: inline-block;">Salmon Truffle Teriyaki 1x</h5>
+                        <h5 style="display:inline-block; margin-left:435px;">Rp. 60.000</h5>
+                    </div>
+                    <div class="listed-payment ml-3" >
+                        <h5 class="" style="display: inline-block;">Ppn 10%</h5>
+                        <h5 style="display:inline-block; margin-left:590px;">Rp. 10.500</h5>
+                    </div>
+                    <div class="listed-payment ml-3 mt-3" >                        
+                        <h5 style="display:inline-block; margin-left:590px;">Total: <span style="margin-left:25px;">Rp. 105.000</span> </h5>
+                    </div>
+                    <div class="listed-payment ml-3 mt-3" >
+                        <h5 class="" style="display: inline-block;">Payment: Cash</h5>
+                    </div>
+                    <div class="button-option mt-2 mx-auto" style="display: flex; flex-direction: column; width: 70%; text-align: center;">
+                        <button class="btn" style="background-color: #F24F8A; border:none; color: #ffff; height: 40px;">Print</button>
+                        <h6>or</h6>
+                        <button class="btn mb-3" style="background-color: #57CAD5; border:none; color: #ffff; height: 40px;">Send Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script src="script/jquery.nice-number.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('input[type="number"]').niceNumber();
+        })
+    </script>
+</body>
+
+</html>

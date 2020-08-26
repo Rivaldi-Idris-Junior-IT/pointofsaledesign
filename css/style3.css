@@ -1,0 +1,107 @@
+body{
+    background-color: #FFFFFF;
+}
+
+/* Alternate Element */
+
+
+
+
+/* end of alternate */
+
+/* Navbar */
+.navbar{
+    background-color:#FFFFFF;
+}
+
+.navbar-brand{
+    margin-left:10px;
+}
+
+.food-name-cart{
+    margin-right: 40px;
+}
+
+.navbar{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+/* end navbar */
+
+/* Sidebar */
+
+.col-md-1{
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);    
+    
+}
+
+.sidebar img{ 
+    margin-top:15px;
+}
+
+/* end of navbar */
+
+
+/* Main bar */
+.col-md-11{
+    padding-left: 20px;    
+    flex-wrap: wrap;    
+    display: flex;
+    height: 120vh;
+    
+}
+
+.col-md-11 .card-list{
+    margin-left: -10px;
+}
+
+.col-md-11 .card-list .card{    
+    width: 402px;
+    height: 213px;
+}
+
+.col-md-11 .card-list .card-income{    
+    background: linear-gradient(278.29deg, #FBB2B4 30.05%, rgba(255, 143, 178, 0) 133.19%);
+    filter: drop-shadow(10px 15px 10px rgba(255, 143, 178, 0.25));
+    border-radius: 10px;
+    
+}
+
+.col-md-11 .card-list .card-orders{    
+    background: linear-gradient(278.29deg, #29DFFF 30.05%, rgba(41, 223, 255, 0) 133.19%);
+    filter: drop-shadow(10px 15px 10px rgba(41, 223, 255, 0.25));
+    border-radius: 10px;
+    margin-left:5px;
+}
+
+.col-md-11 .card-list .card-year-income{    
+    background: linear-gradient(278.29deg, #AB84C8 30.05%, rgba(241, 201, 236, 0) 133.19%);
+    filter: drop-shadow(10px 15px 10px rgba(241, 201, 236, 0.25));
+    border-radius: 10px;
+    margin-left:5px;
+}
+
+.mytable .table{
+    width: 1200px;
+}
+
+
+/* Modal Added */
+
+.modal-button-added{
+    background-color: transparent;
+    border: none;    
+}
+
+.modal-button-added::after{
+    border: none;    
+}
+
+.modal-button-added img{    
+    width: 40px;
+    height: 40px;
+    margin-left: -5px;
+    border:none;
+}
+/* end modal checkout */
+/* end modal added */
